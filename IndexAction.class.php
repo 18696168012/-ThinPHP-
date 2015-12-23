@@ -3,7 +3,7 @@
 *微信消息推送
 *根据具体需求,做相应的调用处理
 */
-class IndexAction extends CommentAction {
+class IndexAction extends CommentAction{
     /*微信消息推送开始*/
     public function sendwx(){
         $appid='wx313dff800dfbe6d3';//公众号appid
